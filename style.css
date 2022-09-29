@@ -1,16 +1,10 @@
-/* .header .txt{
-background-color: rgb(34, 200, 1);
-} */
-
-a[href] {
-    background-color: green;
-    text-decoration: none;
-    color:#fff
+div {
+    border: 4.9px solid green;
+    color:blue
 }
-
-a[href$=".com"]{
-    background-color: aqua;
+p {
+    border:inherit
 }
-a[href*='git']{
-    background-color: gray;
+a {
+    border:inherit
 }
