@@ -1,28 +1,7 @@
-body{
-    background-color: lightgray;
-}
-h1 {
-    color:blue;
-    background-color: aqua;
-    font-size: 50px;
-    text-decoration:line-through;
-    text-decoration-color:red;
-    text-align: center;
-}
-p {
-    color:red;
-    line-height: 40px;
-    letter-spacing: 4px;
-    column-count: 3;
-    column-gap: 40px;
-    
-}
 
-ul {
-    border: 30px outset blue;
-}
-
-li{
-    list-style-type: none;
-    text-shadow: 2px 2px red;
+div {
+    /* display: inline; */
+    border: 2px solid crimson;
+    margin: 20px;
+    padding: 20px
 }
