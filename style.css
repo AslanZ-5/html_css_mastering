@@ -138,3 +138,17 @@ form input:focus{
 form input:valid{
     border: 4px solid green;
 }
+article p::first-line{
+    color:green;
+}
+.join p::first-letter{
+    font-size:2em;
+    color:green;
+}
+p::selection{
+    background-color: #FEB614;
+    color:#fff;
+}
+p::after{
+    content: '......';
+}
